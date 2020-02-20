@@ -6,9 +6,16 @@ filter: Nearest,Nearest
 repeat: none
  box
   rotate: false
-  xy: 1, 660
+  xy: 1, 621
   size: 39, 38
   orig: 39, 38
+  offset: 0, 0
+  index: -1
+acceleration-grid
+  rotate: false
+  xy: 1, 661
+  size: 44, 41
+  orig: 44, 41
   offset: 0, 0
   index: -1
 button-font export
@@ -20,35 +27,35 @@ button-font export
   index: -1
 button-menu-over
   rotate: false
-  xy: 851, 900
+  xy: 72, 738
   size: 44, 24
   orig: 44, 24
   offset: 0, 0
   index: -1
 button-menu-up
   rotate: false
-  xy: 1, 700
+  xy: 851, 878
   size: 44, 24
   orig: 44, 24
   offset: 0, 0
   index: -1
 button-ok-over_00
   rotate: false
-  xy: 851, 822
+  xy: 1, 565
   size: 25, 26
   orig: 25, 26
   offset: 0, 0
   index: -1
 button-ok-over_01
   rotate: false
-  xy: 1, 632
+  xy: 851, 806
   size: 25, 26
   orig: 25, 26
   offset: 0, 0
   index: -1
 button-ok-up
   rotate: false
-  xy: 851, 850
+  xy: 1, 593
   size: 26, 26
   orig: 26, 26
   offset: 0, 0
@@ -62,7 +69,7 @@ button-text
   index: -1
 button-text-over
   rotate: false
-  xy: 897, 908
+  xy: 196, 746
   size: 21, 16
   orig: 21, 16
   offset: 0, 0
@@ -83,23 +90,51 @@ font2
   index: -1
 heading-background
   rotate: false
-  xy: 28, 638
+  xy: 897, 882
   size: 7, 20
   orig: 7, 20
   offset: 0, 0
   index: -1
+image-no
+  rotate: false
+  xy: 851, 834
+  size: 35, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
+image-no-dark
+  rotate: false
+  xy: 159, 742
+  size: 35, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
 image-ok
   rotate: false
-  xy: 72, 742
+  xy: 118, 742
   size: 39, 20
   orig: 39, 20
   offset: 0, 0
   index: -1
 image-ok-dark
   rotate: false
-  xy: 851, 878
+  xy: 851, 856
   size: 39, 20
   orig: 39, 20
+  offset: 0, 0
+  index: -1
+image-yes
+  rotate: false
+  xy: 851, 904
+  size: 53, 20
+  orig: 53, 20
+  offset: 0, 0
+  index: -1
+image-yes-dark
+  rotate: false
+  xy: 1, 704
+  size: 53, 20
+  orig: 53, 20
   offset: 0, 0
   index: -1
 list
@@ -132,35 +167,35 @@ scene-marquee_00
   index: -1
 scene-marquee_01
   rotate: false
-  xy: 47, 716
+  xy: 906, 916
   size: 8, 8
   orig: 8, 8
   offset: 0, 0
   index: -1
 scene-marquee_02
   rotate: false
-  xy: 72, 732
+  xy: 56, 716
   size: 8, 8
   orig: 8, 8
   offset: 0, 0
   index: -1
 scene-marquee_03
   rotate: false
-  xy: 113, 754
+  xy: 72, 728
   size: 8, 8
   orig: 8, 8
   offset: 0, 0
   index: -1
 scene-marquee_04
   rotate: false
-  xy: 879, 868
+  xy: 29, 611
   size: 8, 8
   orig: 8, 8
   offset: 0, 0
   index: -1
 scene-marquee_05
   rotate: false
-  xy: 1, 622
+  xy: 878, 824
   size: 8, 8
   orig: 8, 8
   offset: 0, 0
@@ -174,7 +209,7 @@ scroll-pane-h
   index: -1
 scroll-pane-v
   rotate: false
-  xy: 892, 881
+  xy: 892, 859
   size: 3, 17
   orig: 3, 17
   offset: 0, 0
@@ -195,14 +230,14 @@ select-box-selected
   index: -1
 selection
   rotate: false
-  xy: 851, 799
+  xy: 47, 681
   size: 6, 21
   orig: 6, 21
   offset: 0, 0
   index: -1
 white
   rotate: false
-  xy: 42, 697
+  xy: 118, 739
   size: 1, 1
   orig: 1, 1
   offset: 0, 0

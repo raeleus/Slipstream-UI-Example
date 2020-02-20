@@ -363,6 +363,69 @@
 		"frameDuration": 0.03,
 		"regions": [],
 		"playMode": 2
+	},
+	"acceleration-grid-ten": {
+		"region": "acceleration-grid",
+		"horizontalStretchAreas": [ 39, 43 ],
+		"verticalStretchAreas": [ 5, 25 ],
+		"tiling": false,
+		"minWidth": 44,
+		"minHeight": 41,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.03,
+		"regions": [],
+		"playMode": 2
+	},
+	"image-yes-ten": {
+		"region": "image-yes",
+		"horizontalStretchAreas": [ 0, 52 ],
+		"verticalStretchAreas": [ 0, 19 ],
+		"tiling": false,
+		"minWidth": 53,
+		"minHeight": 20,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.1,
+		"regions": [
+			"image-yes",
+			"image-yes-dark"
+		],
+		"playMode": 2
+	},
+	"image-no-ten": {
+		"region": "image-no",
+		"horizontalStretchAreas": [ 0, 34 ],
+		"verticalStretchAreas": [ 0, 19 ],
+		"tiling": false,
+		"minWidth": 35,
+		"minHeight": 20,
+		"rightWidth": 0,
+		"leftWidth": 0,
+		"bottomHeight": 0,
+		"topHeight": 0,
+		"offsetX": 0,
+		"offsetY": 0,
+		"offsetXspeed": 0,
+		"offsetYspeed": 0,
+		"frameDuration": 0.1,
+		"regions": [
+			"image-no",
+			"image-no-dark"
+		],
+		"playMode": 2
 	}
 },
 "com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle": {
@@ -372,6 +435,18 @@
 	"ok": {
 		"imageUp": "image-ok",
 		"imageOver": "image-ok-ten",
+		"up": "button-ok-up-ten",
+		"over": "button-ok-over-10"
+	},
+	"yes": {
+		"imageUp": "image-yes",
+		"imageOver": "image-yes-ten",
+		"up": "button-ok-up-ten",
+		"over": "button-ok-over-10"
+	},
+	"no": {
+		"imageUp": "image-no",
+		"imageOver": "image-no-ten",
 		"up": "button-ok-up-ten",
 		"over": "button-ok-over-10"
 	}
