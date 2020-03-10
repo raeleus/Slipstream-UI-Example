@@ -201,13 +201,17 @@ public class Core extends ApplicationAdapter {
 		container = new Container();
 		stack.add(container);
 		
+		//create graph
 		final GraphDrawerDrawable graphDrawerDrawable = new GraphDrawerDrawable(new GraphDrawer(new ShapeDrawer(stage.getBatch(), skin.getRegion("white"))));
+		//This controls the appearance of the graph. It can be assigned to any of the default Interpolations or you can create one with your own formula.
 		graphDrawerDrawable.setInterpolation(Interpolation.sine);
 		graphDrawerDrawable.setColor(Color.WHITE);
+		//start domain end at 0 for the beginning of the animation.
 		graphDrawerDrawable.setDomainEnd(0);
 		image = new Image(graphDrawerDrawable);
 		container.setActor(image);
 		container.fill().padLeft(25).padBottom(10).padTop(20).padRight(5);
+		//over 2 seconds, increase the domain end to 1 for a reveal from left animation.
 		image.addAction(new TemporalAction(2f) {
 			@Override
 			protected void update(float percent) {
